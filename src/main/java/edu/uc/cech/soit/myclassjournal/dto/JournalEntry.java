@@ -7,4 +7,6 @@ class JournalEntry {
     private String notes;/** one of test */
     private String date;/** second test */
 
+
+
 }
