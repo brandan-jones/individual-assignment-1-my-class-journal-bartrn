@@ -1,9 +1,15 @@
 package edu.uc.cech.soit.myclassjournal;
 
 import edu.uc.cech.soit.myclassjournal.dto.JournalEntry;
+import edu.uc.cech.soit.myclassjournal.service.IJournalService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 public class MyClassJournalController {
+
+    /** additional code for testing*/
+    @Autowired
+    IJournalService journalService;
     /** html */
     /** checkpoint 3 */
 
@@ -11,7 +17,8 @@ public class MyClassJournalController {
      * Handle the / endpoint
      * @return
      */
-    @RequestMapping("/")
+    @RequestMapping("/index")/** was empty*/
+
 
 
     public String index() {
@@ -25,7 +32,7 @@ public class MyClassJournalController {
 
 
 
-        return "start";
+        return "index";/** was start*/
     }/** html code */
 
 
