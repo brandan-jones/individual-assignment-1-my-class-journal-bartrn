@@ -4,7 +4,7 @@ import lombok.Data;
 
 public @Data
 class JournalEntry {
-    private string notes;/** one of test */
-    private string date;/** second test */
+    private String notes;/** one of test */
+    private String date;/** second test */
 
 }
