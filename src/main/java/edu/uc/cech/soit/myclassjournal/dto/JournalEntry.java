@@ -1,4 +1,10 @@
 package edu.uc.cech.soit.myclassjournal.dto;
 
-public class JournalEntry {
+import lombok.Data;
+
+public @Data
+class JournalEntry {
+    private string notes;/** one of test */
+    private string date;/** second test */
+
 }
