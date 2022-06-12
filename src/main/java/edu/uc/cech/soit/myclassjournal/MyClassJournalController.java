@@ -10,6 +10,9 @@ public class MyClassJournalController {
     /** additional code for testing*/
     @Autowired
     IJournalService journalService;
+
+
+
     /** html */
     /** checkpoint 3 */
 
@@ -27,12 +30,13 @@ public class MyClassJournalController {
         journalEntry.setDate("October 2021");
         journalEntry.setNotes("My first entry!");
 
-        String note = journalEntry.getNotes();
-        String  date = journalEntry.getDate();
+       /** String note = journalEntry.getNotes();
+        String  date = journalEntry.getDate(); */
 
 
 
-        return "index";/** was start*/
+        return "index";
+        /** was start*/
     }/** html code */
 
 
